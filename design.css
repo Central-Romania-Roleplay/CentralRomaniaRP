@@ -1,0 +1,865 @@
+/* Main */
+* {
+    font-family: Poppins, sans-serif;
+    margin: 0;
+}
+body {
+    background: #292E39;
+    overflow-x: hidden;
+}
+.header {
+    background: #313742;
+    padding: 25px;
+}
+.header .cat-a,.cat-s,.cat-r,.social-d,.social-t,.social-y {
+    color: #8C96AA;
+    text-decoration: none;
+}
+.social-d, .social-y, .social-t {
+    border: 0;
+    margin-left: 15px;
+    position: relative;
+    right: -975px;
+    cursor: pointer;
+    margin: 7px;
+    transition: 0.5s background;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.social-y, .social-t {
+    margin: 4px;
+}
+.cat-a, .cat-s, .cat-r {
+    border: 0;
+    margin-left: 15px;
+    position: relative;
+    left: 25px;
+    cursor: pointer;
+    padding: 10px;
+    transition: 0.5s background;
+    transition: 0.5s color;
+    font-weight: 1;
+}
+.social-d {
+    background-color: #7289DA;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+}
+.social-y {
+    background-color: #CC332D;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+}
+.social-t {
+    background-color: black;
+    color: white;
+    padding: 13px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 10px;
+}
+.cat-a:hover, .cat-s:hover, .cat-r:hover {
+    border: 0;
+    margin-left: 15px;
+    position: relative;
+    left: 25px;
+    cursor: pointer;
+    background-color: #3c434e;
+    color: #b1b8c4;
+    padding: 10px;
+    border-radius: 10px;
+}
+.social-d:hover,.social-t:hover,.social-y:hover {
+    background: #3c434e;
+}
+.headerimg {
+    width: 1495px;
+    margin: 10px;
+    position: relative;
+    left: 2px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Informations */
+.Informations {
+    background: #FE3F61;
+    width: 1150px;
+    height: 200px;
+    position: relative;
+    top: -10px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+}
+.Informations h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: 1;
+    position: relative;
+    top: -3px;
+}
+.info-zone {
+    background: #313742;
+    width: 1150px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    left: -10px;
+    top: 3px;
+}
+.aboutsv, .updates {
+    color: white;
+    text-decoration: none;
+    font-weight: initial;
+    position: relative;
+    top: -10px;
+}
+.announcement {
+    width: 45px;
+    position: relative;
+    top: 15px;
+}
+.about,.update {
+    color: #8C96AA;
+    font-weight: 1;
+    font-size: 13px;
+    position: relative;
+    left: 50px;
+    top: -10px;
+}
+.aboutsv:hover, .updates:hover {
+    color: #ff6c87;
+    text-decoration: none;
+    font-weight: initial;
+    position: relative;
+    top: -10px;
+    transition: 0.5s color;
+}
+
+/* Donation */
+.Donations {
+    background: #fe9b3f;
+    width: 1150px;
+    height: 200px;
+    position: relative;
+    top: -10px;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+}
+.Donations h1 {
+    color: white;
+    font-size: 25px;
+    font-weight: 1;
+    position: relative;
+    top: -3px;
+}
+.donation-zone {
+    background: #313742;
+    width: 1150px;
+    height: 150px;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    position: relative;
+    left: -10px;
+    top: 3px;
+}
+.howtodonate, .shop {
+    color: white;
+    text-decoration: none;
+    font-weight: initial;
+    position: relative;
+    top: -10px;
+}
+.announcement {
+    width: 45px;
+    position: relative;
+    top: 15px;
+}
+.htd,.shopp {
+    color: #8C96AA;
+    font-weight: 1;
+    font-size: 13px;
+    position: relative;
+    left: 50px;
+    top: -10px;
+}
+.howtodonate:hover, .shop:hover {
+    color: #fe9b3f;
+    text-decoration: none;
+    font-weight: initial;
+    position: relative;
+    top: -10px;
+    transition: 0.5s color;
+}
+
+/* Factions */
+
+.Factions {
+    position: absolute;
+    left: 1230px;
+    top: 325px;
+    font-weight: 1;
+    color: #8C96AA;
+}
+.Factions h1 {
+    font-size: 15px;
+    font-weight: bold;
+}
+.faction-zone {
+    background: #313742;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+ol {
+    list-style-type: disc;
+}
+li {
+    text-align: left;
+}
+
+/* Legal Jobs */
+
+.Jobs {
+    position: absolute;
+    left: 1230px;
+    top: 485px;
+    font-weight: 1;
+    color: #8C96AA;
+}
+.Jobs h1 {
+    font-size: 15px;
+    font-weight: bold;
+}
+.jobs-zone {
+    background: #313742;
+    padding: 10px;
+    width: 170px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+ol {
+    list-style-type: disc;
+}
+li {
+    text-align: left;
+}
+
+/* Ilegal Jobs */
+
+.Jobs- {
+    position: absolute;
+    left: 1230px;
+    top: 650px;
+    font-weight: 1;
+    color: #8C96AA;
+}
+.Jobs- h1 {
+    font-size: 15px;
+    font-weight: bold;
+}
+.jobs-zone- {
+    background: #313742;
+    padding: 10px;
+    width: 170px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+ol {
+    list-style-type: disc;
+}
+li {
+    text-align: left;
+}
+
+/* Footer */
+.footer {
+    background: #313742;
+    margin-top: 20px; 
+    color: #8C96AA;
+    padding: 20px;
+}
+.footer h1 {
+    font-size: 13px;
+    font-weight: initial;
+}
+
+/*----------------------------------------*/
+/* Staff */
+.Card {
+    background: #313742;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 50px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    
+}
+.avatar {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    margin-left: 38px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.role {
+    color: #8C96AA;
+    text-align: center;
+    font-weight: 1;
+    font-size: 25px;
+}
+.name {
+    color: #8C96AA;
+    text-align: center;
+    font-weight: 1;
+    font-size: 20px;
+    padding: 5px;
+}
+.discord {
+    color: #8C96AA;
+    font-weight: 1;
+    text-align: center;
+    font-size: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    padding: 5px;
+}
+.contact {
+    color: #8C96AA;
+    font-weight: 1;
+    font-size: 20px;
+    margin: 5px;
+}
+.founder-cocofounder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.founder, .cofounder {
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.team {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+.coming {
+    color: #8C96AA;
+    font-weight: 1;
+    text-align: center;
+}
+
+/* -------------------------------------------------------------*/
+/* About */
+.aboutsss {
+    color: #8C96AA;
+    text-align: center;
+    font-weight: 1;
+}
+hr {
+    margin-left: 100px;
+    margin-right: 100px;
+    color: #8C96AA;
+    margin-top: 10px;
+}
+/* Big */
+.big {
+    background: #313742;
+    padding: 10px;
+    width: 800px;
+    margin-top: 20px;
+    height: 350px;
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+.title {
+    color: #8C96AA;
+    font-weight: 1;
+    font-size: 30px;
+    text-align: left;
+    margin-right: 20px;
+}
+.p1 {
+    color: #8C96AA;
+    font-weight: 1;
+    margin-left: 20px;  /* Ajustăm margin-left pentru a crea un spațiu între text și imagine */
+    margin-top: 0; /* Remove the existing margin-top */
+    margin-bottom: 0; /* Remove the existing margin-bottom */   
+}
+.peisaj1 {
+    width: 650px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    margin: -368px auto 0px; /* Ajustează această valoare pentru a poziționa imaginea */
+    display: block;
+    margin-right: 25px;
+    border-radius: 15px;
+}
+
+ /* World */
+.world {
+    background: #313742;
+    padding: 10px;
+    width: 800px;
+    margin-top: 20px;
+    height: 350px;
+    border-radius: 15px 0px 0px 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    float: right;
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+.title2 {
+    color: #8C96AA;
+    font-weight: 1;
+    font-size: 30px;
+    text-align: left;
+    margin-right: 20px;
+}
+.p2 {
+    color: #8C96AA;
+    font-weight: 1;
+    margin-left: 20px;  /* Ajustăm margin-left pentru a crea un spațiu între text și imagine */
+    margin-top: 0; /* Remove the existing margin-top */
+    margin-bottom: 0; /* Remove the existing margin-bottom */
+}
+.peisaj2 {
+    width: 650px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    margin: 22px auto 0; /* Ajustează această valoare pentru a poziționa imaginea */
+    display: block;
+    border-radius: 15px;
+}
+/* Community */
+.community {
+    background: #313742;
+    padding: 10px;
+    width: 800px;
+    margin-top: 20px;
+    height: 350px;
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+.title3 {
+    color: #8C96AA;
+    font-weight: 1;
+    font-size: 30px;
+    text-align: left;
+    margin-right: 20px;
+}
+.p3 {
+    color: #8C96AA;
+    font-weight: 1;
+    margin-left: 20px;  /* Ajustăm margin-left pentru a crea un spațiu între text și imagine */
+}
+.peisaj3 {
+    width: 650px; /* Ajustează lățimea după nevoie */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    margin-top: -365px; /* Ajustează această valoare pentru a poziționa imaginea */
+    display: block;
+    margin-left: auto; /* Ajustează pentru a muta imaginea la dreapta */
+    margin-right: 30px; /* Ajustează pentru a muta imaginea la stânga */
+    border-radius: 15px;
+}
+/* RP */
+.rp {
+    background: #313742;
+    padding: 10px;
+    width: 800px;
+    margin-top: 20px;
+    height: 350px;
+    border-radius: 15px 0px 0px 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    float: right; /* Add this line to move it to the right */
+    margin-top: 20px;
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+.title4 {
+    color: #8C96AA;
+    font-weight: 1;
+    font-size: 25px;
+    text-align: left;
+    margin-right: 20px;
+}
+.p4 {
+    color: #8C96AA;
+    font-weight: 1;
+    margin-left: 20px;  /* Ajustăm margin-left pentru a crea un spațiu între text și imagine */
+}
+.peisaj4 {
+    width: 650px; /* Ajustează lățimea după nevoie */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    margin-top: 20px; /* Ajustează această valoare pentru a poziționa imaginea */
+    display: block;
+    margin-left: auto; /* Ajustează pentru a muta imaginea la dreapta */
+    margin-right: auto; /* Ajustează pentru a muta imaginea la stânga */
+    border-radius: 15px;
+}
+.footerr {
+    background: #313742;
+    margin-top: -50px; /* Ajustează această valoare pentru a muta .footerr mai sus */
+    margin-bottom: 0;
+    color: #8C96AA;
+    padding: 20px;
+    position: relative; /* Poate fi necesar să ajustezi această linie */
+    top: 80px;
+}
+
+
+.footerr h1 {
+    font-size: 13px;
+    font-weight: initial;
+}
+
+/*---------------------------------------------------------------------------*/
+/* Cum donez?*/
+.zoned {
+    background-color: #fe9b3f;
+    padding: 20px;
+    margin: 30px;
+    width: 850px;
+    border-radius: 15px;
+    margin-left: 300px;
+    margin-top: 7px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.detalii {
+    text-align: center;
+    color: white;
+    font-weight: 1;
+}
+.zonadon {
+    background: #313742;
+    padding: 20px;
+    margin-left: -20px;
+    width: 850px;
+    border-radius: 0px 0px 15px 15px;
+    position: relative;
+    height: 215px;
+    top: 21px;
+}
+.welcome {
+    color: white;
+    font-weight: 1;
+    text-align: center;
+    font-size: 20px;
+}
+.donationlist {
+    text-align: center;
+    margin: 5px;
+    color: white;
+}
+.goshop {
+    background: #fe9b3f;
+    padding: 10px;
+    position: relative;
+    left: 400px;
+    top: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.goshop:hover {
+    background: #3c434e;
+    padding: 10px;
+    position: relative;
+    left: 400px;
+    top: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: #8C96AA;
+}
+.shopzone {
+    background: #fe9b3f;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 15px;
+    width: 880px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.products {
+    background: #313742;
+    padding: 15px;
+    width: 880px;
+    margin-left: -15px;
+    border-radius: 0px 0px 15px 15px;
+    margin-bottom: -17px;
+}
+h2 {
+    color: white;
+    font-weight: 1;
+    text-align: center;
+    position: relative;
+    top: -5px;
+}
+.vip-bronze, .vip-silver, .vip-diamond {
+    background: #3c434e;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+h3 {
+    color: white;
+    font-weight: 1;
+}
+.price {
+    color: White;
+    font-weight: 1;
+}
+.verde {
+    color: #fe9b3f;
+    font-weight: 1;
+}
+.beneficii {
+    color: white;
+}
+.benefics {
+    color: white;
+    font-weight: 1;
+}
+.vip-silver {
+    height: 250px;
+    margin-left: 300px;
+    margin-top: -280px;
+}
+.vip-diamond {
+    height: 250px;
+    margin-left: 600px;
+    margin-top: -280px;
+}
+
+.unban-unwarn {
+    background: #fe9b3f;
+    margin-left: 960px;
+    margin-top: -260px;
+    margin-bottom: 119px;
+    padding: 15px;
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+.productsun {
+    background: #313742;
+    padding: 15px;
+    width: 500px;
+    margin-left: -15px;
+    border-radius: 0px 0px 15px 15px;
+    margin-bottom: -17px;
+}
+.unwarn, .unban {
+    background: #3c434e;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    width: 200px;
+    border-radius: 10px;
+    position: relative;
+    left: 10px;
+}
+.unban {
+    margin-left: 250px;
+    margin-top: -80px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+        overflow-x: auto; /* Permite defilarea pe orizontală pe ecrane mici */
+    }
+
+    .header {
+        padding: 15px; /* Redu spațiul în header pentru ecrane mici */
+        width: 100%;
+        margin: 20px;
+    }
+
+    .social-d, .social-y, .social-t, .cat-a, .cat-s, .cat-r {
+        margin-left: 0; 
+        text-align: center;
+        display: block; /* Afiseaza elementele pe linie noua pentru ecrane mici */
+        margin-bottom: 10px; /* Adaugăm spațiu între elemente pentru ecrane mici */
+    }
+    .cat-a, .cat-s, .cat-r {
+        margin-left: -40px; 
+        text-align: center;
+        display: block; /* Afiseaza elementele pe linie noua pentru ecrane mici */
+        margin-bottom: 10px; /* Adaugăm spațiu între elemente pentru ecrane mici */
+    }
+    .social-d, .social-y, .social-t {
+        right: 0; /* Aliniem social media links la dreapta pe ecrane mici */
+    }
+
+    .headerimg {
+        display: none;
+    }
+
+    /* Restul stilizărilor pentru ecrane mici pot fi adăugate aici */
+    /* ... */
+    
+    /* Stilizare pentru shopzone și produse pe ecrane mici */
+    .shopzone, .products, .vip-bronze, .vip-silver, .vip-diamond, .unban-unwarn, .productsun, .unwarn, .unban {
+        width: 100%; /* Face containerul și produsele responsive pe ecrane mici */
+        margin-left: 0; /* Resetăm margin-left pentru a centra elementele pe ecrane mici */
+        margin-top: 20px; /* Adaugăm spațiu între sectiuni pe ecrane mici */
+    }
+    .shopzone {
+        margin-left: 15px;
+    }
+    .products {
+        margin-left: -15px;
+    }
+    .vip-bronze,.vip-silver,.vip-diamond {
+        margin-left: -10px;
+        padding: 10px;
+        margin-top: 15px;
+    }
+    .unban-unwarn {
+        margin-left: 15px;
+    }
+    .productsun {
+        margin-left: -15px;
+    }
+    .unwarn, .unban {
+        margin-left: -20px;
+        padding: 10px;
+    }
+    .footer {
+        width: 100%;
+        margin: 15px;
+    }
+    .founder {
+        margin-left: 75px;
+    }
+    .cofounder {
+        margin-left: 75px;
+    }
+    .team {
+        margin-left: 75px;
+    }
+    .zoned {
+        width: 95%;
+        margin-left: 25px;
+    }
+    .zonadon {
+        width: 100%;
+        height: 500px;
+        
+    }
+    .goshop {
+        display: none;
+    }
+
+    .big {
+        width: 107%;
+
+    }
+    .peisaj1 {
+        margin-top: 20px;
+        width: 100%;
+        margin: 20px;
+        margin-left: 30px;
+    }
+
+    .world {
+        width: 107%;
+        margin-right: -50px;
+        border-radius: 0px 15px 15px 0px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .peisaj2 {
+        margin-top: 20px;
+        width: 100%;
+        margin: 20px;
+        margin-left: 30px;
+    }
+    .community {
+        width: 107%;
+        margin-right: -50px;
+        border-radius: 0px 15px 15px 0px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .peisaj3 {
+        margin-top: 20px;
+        width: 100%;
+        margin: 20px;
+        margin-left: 30px;
+    }
+    .rp {
+        width: 107%;
+        margin-right: -50px;
+        border-radius: 0px 15px 15px 0px;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .peisaj4 {
+        margin-top: 20px;
+        width: 100%;
+        margin: 20px;
+        margin-left: 30px;
+    }
+    .footerr {
+        width: 100%;
+        margin: 10px;
+    }
+    .aboutsss {
+        margin-left: 75px;
+    }
+    hr {
+        margin-left: 200px;
+    }
+    .Informations, .info-zone, .Donations, .donation-zone {
+        width: 100%;
+
+    }
+    .Informations {
+        margin-left: 30px;
+    }
+    .Donations{
+        margin-bottom: 475px;
+        margin-left: 30px;
+    }
+    .Factions {
+        margin-left: -1080px;
+        margin-top: 575px;
+    }
+    .Jobs {
+        margin-left: -1080px;
+        margin-top: 575px;
+    }
+    .Jobs- {
+        margin-left: -1080px;
+        margin-top: 575px;
+    }
+    .factionh1, .jobsh1, .jobsh1- {
+        text-align: center;
+    }
+}
